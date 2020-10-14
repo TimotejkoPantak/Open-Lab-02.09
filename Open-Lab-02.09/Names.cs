@@ -6,7 +6,7 @@ namespace Open_Lab_02._09
     {
         public string ConcatName(string firstName, string lastName)
         {
-            throw new NotImplementedException();
+            return string.Format("{0}, {1}", lastName, firstName);
         }
     }
 }
